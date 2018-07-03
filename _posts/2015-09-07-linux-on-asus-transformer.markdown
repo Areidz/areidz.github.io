@@ -12,9 +12,9 @@ This entry is going to be my **linux diary**, so I can keep on records the stuff
 
 ## Windows hates me
 
-This change started with the new update of _Microsoft_ OS, **Windows 10**. I wanted to test it on my tablet, an **Asus Transformer T100** , to see how it was going. Even if I read a lot about the lack of privacy it "offers", I was also curious about all the changes like **multi-desktop support** (which both _Linux_ and _Macintosh_ offer since ages) and **Cortana** , which offered a lot of [features](http://www.pcworld.com/article/2874400/windows/windows-10-the-10-coolest-features-you-should-check-out-first.html) that seemed to be useful.
+This change started with the new update of Microsoft OS, **Windows 10**. I wanted to test it on my tablet, an **Asus Transformer T100** , to see how it was going. Even if I read a lot about the lack of privacy it "offers", I was also curious about all the changes like **multi-desktop support** (which both Linux and Macintosh offer since ages) and **Cortana** , which offered a lot of [features](http://www.pcworld.com/article/2874400/windows/windows-10-the-10-coolest-features-you-should-check-out-first.html) that seemed to be useful.
 
-So... I installed it and, as you can imagine, it lasted about 5 days installed. I've found every new thing a **waste** of memory and CPU, and I had to reinstall some drivers like the touch-pad, because it wasn't working correctly. Thankfully, _Microsoft_ offered a **downgrade** to Windows 8.1 if you didn't like Windows 10, so I tried it. Everything went perfect, except for a thing: That new driver which was installed during the time I was trying Windows 10 wasn't downgraded or something like that, and the desktop kept flashing and restarting even if I restarted the OS. That was the moment I gathered strength to **install Ubuntu** on my tablet.
+So... I installed it and, as you can imagine, it lasted about 5 days installed. I've found every new thing a **waste** of memory and CPU, and I had to reinstall some drivers like the touch-pad, because it wasn't working correctly. Thankfully, Microsoft offered a **downgrade** to Windows 8.1 if you didn't like Windows 10, so I tried it. Everything went perfect, except for a thing: That new driver which was installed during the time I was trying Windows 10 wasn't downgraded or something like that, and the desktop kept flashing and restarting even if I restarted the OS. That was the moment I gathered strength to **install Ubuntu** on my tablet.
 
 Why **Ubuntu**? Because it's the only _Linux_ **well tweaked** to have almost every single component working. There are some exceptions of parts which aren't working, like the camera, the microphone and the hardware buttons ([GPIO](https://en.wikipedia.org/wiki/General-purpose_input/output)), but the rest is working in a really stable way.
 
@@ -22,14 +22,14 @@ Why **Ubuntu**? Because it's the only _Linux_ **well tweaked** to have almost ev
 
 Taking this into account, I downloaded [_Asus T100-TA Magic Stick ISO_](http://forum.xda-developers.com/windows-8-rt/win-8-development/live-asus-t100-ta-magic-stick-t3091481), version 1.5, I booted up _Ubuntu_ and I **installed it** with the included tool to do so. I **overwrote** the complete **internal flash memory**, included the UEFI partition. I still have a **backup** in my **external HDD** just in case I want to recover my system as it was a couple of months ago, so I'm not afraid to do so.
 
-First thing I've done with the new OS is **delete Unity**. I hate that desktop environment, so I've installed **XFCE**. To do so, I've used a tool called _tasksel_. I've used the following commands to install it and execute it:
+First thing I've done with the new OS is **delete Unity**. I hate that desktop environment, so I've installed **XFCE**. To do so, I've used a tool called `tasksel`. I've used the following commands to install it and execute it:
 
 {% highlight shell-session %} 
 ~ $ sudo apt-get install tasksel
 ~ $ sudo tasksel
 {% endhighlight %}
 
-After this, I've checked _Xubuntu-desktop_ and I've unchecked _Ubuntu-desktop_. You have to **wait a couple of minutes** in order to download _XFCE_ and uninstall _Unity_ and other applications related, and then the OS reboots and you have **Xubuntu** totally compatible with your tablet.
+After this, I've checked `Xubuntu-desktop` and I've unchecked `Ubuntu-desktop`. You have to **wait a couple of minutes** in order to download _XFCE_ and uninstall _Unity_ and other applications related, and then the OS reboots and you have **Xubuntu** totally compatible with your tablet.
 
 ## Programs and more programs
 
@@ -49,9 +49,9 @@ To install _Chrome_ I've used:
 ~ $ sudo gdebi google-chrome-stable_current_i386.deb
 {% endhighlight %}
 
-In order to install _Dropbox,_ I've gone to [dropbox.com/install](https://www.dropbox.com/install) and I've downloaded the \*.deb file, and followed the instructions.
+In order to install _Dropbox,_ I've gone to [dropbox.com/install](https://www.dropbox.com/install) and I've downloaded the `\*.deb` file, and followed the instructions.
 
-And that's everything I've made today. I hope the **touchpad support** becomes **better** and it gives us multi-touch as _Windows_ does. That's the only thing I miss, the ability to scroll pages with the touchpad.
+And that's everything I've made today. I hope the **touchpad support** becomes **better** and it gives us multi-touch as Windows does. That's the only thing I miss, the ability to scroll pages with the touchpad.
 
 For further information, have a look at our Google+ Group: [https://plus.google.com/communities/117853703024346186936](https://plus.google.com/communities/117853703024346186936)
 
