@@ -14,15 +14,13 @@ This is why I have decided to try **[Jekyll][jekyll-url]** on **[GitHub Pages][g
 
 Posts are written in **[Markdown][markdown-url]** style as raw-text, and are automatically converted to static pages thought a template you can edit.
 
-##Installing the blog
+## Installing the blog
 
 I am using Windows as my main Operative System and Debian as my secundary one. Due to this, I have decided to install the server on Windows. This configuration is not a trivial step, so I followed the [official docs][official-docs-url] to do so.
 
 The only problem I had faced is installing *wdm*, which is not compiling in my machine. Nevertheless, everything seems to be working perfectly without it, so I am not going to try to fix it for a while.
 
-##Folking the template
-
-![Clean Blog preview]({{site.baseurl}}/assets/img/clean-blog.jpg)
+## Folking the template
 
 After looking for any good template to start the blog, I found **[Clean Blog][clean-url]**, an amazing template by *[Start Bootstrap][start-url]*.
 
@@ -30,7 +28,7 @@ I modified it to add support for *Disqus* following [this tutorial][disqus-url].
 
 In addition, I have added share buttons following [this guide][share-url]. I had to adapt it to my custom template by creating some new css and html files, loading the css file in *head.html* and adding the html to the post template. Maybe you could find it interesting.
 
-##Useful links
+## Useful links
 
 To finish the post, I want to share some useful links:
 
