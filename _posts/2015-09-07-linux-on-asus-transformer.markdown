@@ -3,7 +3,7 @@ layout: post
 title: Linux on my Asus T100TA
 date: 2015-09-07 01:49:07 +0200
 description: The love-hate I felt when I installed Linux on this laptop.
-img: linux-asus.jpg # Add Image post (optional)
+img: programming.jpg # Add Image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Asus, Linux, T100TA]
 ---
