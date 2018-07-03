@@ -1,6 +1,5 @@
 ---
 layout: post
-comment: true
 title: Installing Jekyll with a custom template on GitHub Pages
 date: 2015-04-17 17:34:16 +0200
 description: How I installed Jekyll on GitHub Pages and my impressions
