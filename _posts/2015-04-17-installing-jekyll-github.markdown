@@ -1,24 +1,24 @@
 ---
 layout: post
-title: Installing Jekyll with a custom template on GitHub Pages
+title: My first experience with Jekyll
 date: 2015-04-17 17:34:16 +0200
-description: How I installed Jekyll on GitHub Pages and my impressions
+description: How I installed Jekyll on GitHub Pages and my first impressions
 img: clean-blog.jpg # Add Image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Jekyll, Template, GitHub]
 ---
 
-After almost seven years using [Wordpress][wordpress-url] and [Blogger][blogger-url] as my main blogging services, I have decided to change my mind, make a step forward and install a simple web/blog with a great frontend and without a complex database that could lead me to big vulnerabilities.
+After almost seven years using [Wordpress][wordpress-url] and [Blogger][blogger-url] as my main blogging services, I have decided to change my mind, make a step forward and install a simple web/blog with a great frontend and without a complex database and their vulnerabilities. Furthermore, I do not like the feeling of Wordpress owning the content of my blog because it is hosted there.
 
-This is why I have decided to try **[Jekyll][jekyll-url]** on **[GitHub Pages][github-pages-url]**. Jekyll is a simple web/blog engine written in [Ruby][ruby-url] using static pages as entries and posts.
+Having a look at the possibilities I decided to try **[Jekyll][jekyll-url]** on **[GitHub Pages][github-pages-url]**. Jekyll is a simple web/blog engine written in [Ruby][ruby-url] using static pages as entries and posts, so... no more databases!
 
-Posts are written in **[Markdown][markdown-url]** style as raw-text and are automatically converted to static pages thought a template you can edit.
+Posts are written in **[Markdown][markdown-url]** style as raw-text and are automatically converted to static pages thought a template you can edit yourself.
 
 ## Installing the blog
 
-I am using Windows as my main Operative System and Debian as my secundary one. Due to this, I have decided to install the server on Windows. This configuration is not a trivial step, so I followed the [official docs][official-docs-url] to do so.
+I am using Windows as my main Operative System and Debian as my secondary one. Due to this, I decided to install the server on Windows. This installation and configuration was not a trivial step, so I followed the [official docs][official-docs-url] to do so.
 
-The only problem I had faced is installing *WDM*, which is not compiling in my machine. Nevertheless, everything seems to be working perfectly without it, so I am not going to try to fix it for a while.
+The only problem I faced was installing *WDM*, which was not compiling in my machine. Nevertheless, everything seems to be working perfectly without it, so I am not going to try to fix it for a while.
 
 ## Folking the template
 
@@ -37,6 +37,9 @@ To finish the post, I want to share some useful links:
 * **[Jekyll for Windows][official-docs-url]**: a website explaining how to install *Jekyll* on *Windows*
 * **[Markdown Cheatsheet][markdown-cheatsheet-url]**: useful cheatsheet to write posts.
 
+## (July 2018 Update)
+
+I have recovered some of the entries of my old Jekyll diary and I am posting them here, even though this blog has another template and design. 
 
 [wordpress-url]: https://www.wordpress.com/
 [blogger-url]: https://www.blogger.com/
