@@ -1,5 +1,6 @@
 ---
 layout: post
+comment: true
 title: Installing Jekyll with a custom template on GitHub Pages
 date: 2015-04-17 17:34:16 +0200
 description: How I installed Jekyll on GitHub Pages and my impressions
@@ -12,13 +13,13 @@ After almost seven years using [Wordpress][wordpress-url] and [Blogger][blogger-
 
 This is why I have decided to try **[Jekyll][jekyll-url]** on **[GitHub Pages][github-pages-url]**. Jekyll is a simple web/blog engine written in [Ruby][ruby-url] using static pages as entries and posts.
 
-Posts are written in **[Markdown][markdown-url]** style as raw-text, and are automatically converted to static pages thought a template you can edit.
+Posts are written in **[Markdown][markdown-url]** style as raw-text and are automatically converted to static pages thought a template you can edit.
 
 ## Installing the blog
 
 I am using Windows as my main Operative System and Debian as my secundary one. Due to this, I have decided to install the server on Windows. This configuration is not a trivial step, so I followed the [official docs][official-docs-url] to do so.
 
-The only problem I had faced is installing *wdm*, which is not compiling in my machine. Nevertheless, everything seems to be working perfectly without it, so I am not going to try to fix it for a while.
+The only problem I had faced is installing *WDM*, which is not compiling in my machine. Nevertheless, everything seems to be working perfectly without it, so I am not going to try to fix it for a while.
 
 ## Folking the template
 
@@ -31,7 +32,6 @@ In addition, I have added share buttons following [this guide][share-url]. I had
 ## Useful links
 
 To finish the post, I want to share some useful links:
-
 
 * **[Examples][examples-url]**: some examples of websites using *Jekyll.
 * **[Jekyll][jekyll-url]**: main *Jekyll* website with install guides and configuration tutorials.
@@ -50,5 +50,5 @@ To finish the post, I want to share some useful links:
 [start-url]: http://startbootstrap.com/
 [examples-url]: https://github.com/jekyll/jekyll/wiki/Sites
 [markdown-cheatsheet-url]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-[disqus-url]: https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions
+[disqus-url]: https://help.disqus.com/installation/jekyll-installation-instructions
 [share-url]: http://codingtips.kanishkkunal.in/share-buttons-jekyll/
