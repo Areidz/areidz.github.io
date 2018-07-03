@@ -25,8 +25,8 @@ Taking this into account, I downloaded [_Asus T100-TA Magic Stick ISO_](http://f
 First thing I've done with the new OS is **delete Unity**. I hate that desktop environment, so I've installed **XFCE**. To do so, I've used a tool called _tasksel_. I've used the following commands to install it and execute it:
 
 {% highlight shell-session %} 
-$ sudo apt-get install tasksel
-$ sudo tasksel
+~ $ sudo apt-get install tasksel
+~ $ sudo tasksel
 {% endhighlight %}
 
 After this, I've checked _Xubuntu-desktop_ and I've unchecked _Ubuntu-desktop_. You have to **wait a couple of minutes** in order to download _XFCE_ and uninstall _Unity_ and other applications related, and then the OS reboots and you have **Xubuntu** totally compatible with your tablet.
@@ -36,8 +36,8 @@ After this, I've checked _Xubuntu-desktop_ and I've unchecked _Ubuntu-desktop_. 
 Then, I've updated the OS and I've installed some useful programs:
 
 {% highlight shell-session %} 
-$ sudo apt-get update && sudo apt-get upgrade
-$ sudo apt-get install libreoffice gdebi-core synaptic aptitude vlc xubuntu-restricted-extras libavcodec-extra rar wireshark
+~ $ sudo apt-get update && sudo apt-get upgrade
+~ $ sudo apt-get install libreoffice gdebi-core synaptic aptitude vlc xubuntu-restricted-extras libavcodec-extra rar wireshark
 {% endhighlight %}
 
 Also, I've installed **Dropbox** and **Google Chrome** (I don't really like _Chromium_ now, because Google has done a great advance in **memory handling** and _Chromium_ is still a bit slower and big than _Chrome_).
@@ -45,8 +45,8 @@ Also, I've installed **Dropbox** and **Google Chrome** (I don't really like _Chr
 To install _Chrome_ I've used:
 
 {% highlight shell-session %} 
-$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
-$ sudo gdebi google-chrome-stable_current_i386.deb
+~ $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+~ $ sudo gdebi google-chrome-stable_current_i386.deb
 {% endhighlight %}
 
 In order to install _Dropbox,_ I've gone to [dropbox.com/install](https://www.dropbox.com/install) and I've downloaded the \*.deb file, and followed the instructions.
