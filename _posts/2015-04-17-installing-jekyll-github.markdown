@@ -36,6 +36,7 @@ To finish the post, I want to share some useful links:
 * **[Jekyll][jekyll-url]**: main *Jekyll* website with install guides and configuration tutorials.
 * **[Jekyll for Windows][official-docs-url]**: a website explaining how to install *Jekyll* on *Windows*
 * **[Markdown Cheatsheet][markdown-cheatsheet-url]**: useful cheatsheet to write posts.
+* [Supported language highlighters in Pygments for Jekyll and GitHub Pages](https://haisum.github.io/2014/11/07/jekyll-pygments-supported-highlighters/)
 
 ## (July 2018 Update)
 
