@@ -21,7 +21,7 @@ social-email: rigle@pm.me # add your Email address
 discus-identifier: areidzme # add your discus identifier
 
 # Tracker
-analytics: 39853782 # Google Analytics
+analytics: UA-39853782-2 # Google Analytics
 
 # Build Settings
 markdown: kramdown
