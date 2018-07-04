@@ -19,26 +19,6 @@ layout: main
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      
-* Do not remove this line (it will not be displayed)
-{:toc}
-
-
-<style>
-#markdown-toc::before {
-    content: "Contents";
-    font-weight: bold;
-}
-#markdown-toc ul {
-    list-style: decimal;
-}
-#markdown-toc {
-    border: 1px solid #aaa;
-    padding: 1.5em;
-    list-style: decimal;
-    display: inline-block;
-}
-</style>
       {% include table-of-contents.html %}
       {{content | markdownify}}
       <div class="page-footer">
