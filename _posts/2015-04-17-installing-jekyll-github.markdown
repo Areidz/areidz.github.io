@@ -40,7 +40,7 @@ To finish the post, I want to share some useful links:
 
 ## (July 2018 Update)
 
-I have recovered some of the entries of my old Jekyll diary and I am posting them here, even though this blog has another template and design. 
+I have recovered some of the entries of my old Jekyll diary and I am posting them here, even though this blog has another template and design. These days I was using Sublime Text as editor, but lately I'm liking [Visual Studio Code](https://code.visualstudio.com/) a lot and I'm editing this whole blog with it.  
 
 [wordpress-url]: https://www.wordpress.com/
 [blogger-url]: https://www.blogger.com/
