@@ -20,7 +20,7 @@ El proceso lo empecé mal, porque me descargué Ubuntu en vez de Xubuntu, aunque
 
 Para la instalación entera del sistema, seguí esta guía ([https://drive.google.com/file/d/1VTzciobFlp7nO2A_M7RNoqYajN8c9AgR/view](https://drive.google.com/file/d/1VTzciobFlp7nO2A_M7RNoqYajN8c9AgR/view)), así que si tenéis alguna duda, os recomiendo consultarla, porque aquí pasaré algunos detalles por alto.
 
-Manos a la obra: grabé la ISO en un pendrive con [Rufus](https://rufus.ie) y añadí el fichero bootia32.efi para que pudiese bootear el proceso de instalación. Tras encenderlo, seleccioné las opciones para tener el sistema a mi gusto y creé particiones usando todo el disco (borrando Windows y respetando el UEFI).
+Manos a la obra: grabé la ISO en un pendrive con [Rufus](https://rufus.ie) y añadí el fichero `bootia32.efi` para que pudiese bootear el proceso de instalación. Tras encenderlo, seleccioné las opciones para tener el sistema a mi gusto y creé particiones usando todo el disco (borrando Windows y respetando el UEFI).
 
 El primer problema empieza al terminar la instalación, y es el de **instalar el bootloader**. Para ello, hay que conectar el WiFi como nos indica la guía:
 
@@ -56,11 +56,7 @@ sudo cp kernel4.5.xand4.4.x.asound.state /var/lib/alsa/asound.state
 sudo alsactl restore
 ```
 
-Con esto, tendríamos que tener el sonido funcionando, pudiendo modificar los parámetros con Pulseaudio.
-
-```bash
-pavucontrol
-```
+Con esto, tendríamos que tener el sonido funcionando, pudiendo modificar los parámetros con Pulseaudio con el comando `pavucontrol`.
 
 ## Post instalación
 
