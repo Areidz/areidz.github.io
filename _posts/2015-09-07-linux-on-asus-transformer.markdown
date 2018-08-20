@@ -12,7 +12,7 @@ This entry is going to be my **linux diary**, so I can keep on records the stuff
 
 ## Windows hates me
 
-This change started with the new update of Microsoft OS, **Windows 10**. I wanted to test it on my tablet, an **Asus Transformer T100** , to see how it was going. Even if I read a lot about the lack of privacy it "offers", I was also curious about all the changes like **multi-desktop support** (which both Linux and Macintosh offer since ages) and **Cortana** , which offered a lot of [features](http://www.pcworld.com/article/2874400/windows/windows-10-the-10-coolest-features-you-should-check-out-first.html) that seemed to be useful.
+This change started with the new update of Microsoft OS, **Windows 10**. I wanted to test it on my tablet, an **Asus Transformer T100** , to see how it was going. Even though I read a lot about its lack of privacy, I was also curious about all the changes like **multi-desktop support** (which both Linux and Macintosh have since ages) and **Cortana** , which offered a lot of [features](http://www.pcworld.com/article/2874400/windows/windows-10-the-10-coolest-features-you-should-check-out-first.html) that seemed to be useful.
 
 So... I installed it and, as you can imagine, it lasted about 5 days installed. I've found every new thing a **waste** of memory and CPU, and I had to reinstall some drivers like the touch-pad, because it wasn't working correctly. Thankfully, Microsoft offered a **downgrade** to Windows 8.1 if you didn't like Windows 10, so I tried it. Everything went perfect, except for a thing: That new driver which was installed during the time I was trying Windows 10 wasn't downgraded or something like that, and the desktop kept flashing and restarting even if I restarted the OS. That was the moment I gathered strength to **install Ubuntu** on my tablet.
 
@@ -40,7 +40,7 @@ Then, I've updated the OS and I've installed some useful programs:
 ~ $ sudo apt-get install libreoffice gdebi-core synaptic aptitude vlc xubuntu-restricted-extras libavcodec-extra rar wireshark
 {% endhighlight %}
 
-Also, I've installed **Dropbox** and **Google Chrome** (I don't really like _Chromium_ now, because Google has done a great advance in **memory handling** and _Chromium_ is still a bit slower and big than _Chrome_).
+Also, I've installed **Dropbox** and **Google Chrome** (I don't really like _Chromium_ now, because Google has done a great advance in **memory handling** and _Chromium_ is still a bit slower and bigger than _Chrome_).
 
 To install _Chrome_ I've used:
 
@@ -55,7 +55,7 @@ And that's everything I've made today. I hope the **touchpad support** becomes *
 
 For further information, have a look at our Google+ Group: [https://plus.google.com/communities/117853703024346186936](https://plus.google.com/communities/117853703024346186936)
 
-## (July 2018 Update)
+## (June 2018 Update)
 
 Even though I was really motivated with the change to Linux, I switched it back to Windows after 6 months using Linux for the following reasons:
 
