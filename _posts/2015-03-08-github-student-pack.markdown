@@ -5,7 +5,7 @@ date: 2015-03-08 22:26:20 +0100
 description: Discover all the student benefits from Github # Add post description (optional)
 img: github-student.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Github, Student]
+tags: [GitHub, Student]
 ---
 
 Github is undoubtedly one of the largest webpages when it comes to sharing work with the community. Also, Github allows us to work as a team with the Git version control tools and a nice frontend. 

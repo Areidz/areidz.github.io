@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Xubuntu 18.04 en el T100TA (otra vez)
+title: Xubuntu 18.04 en el T100TA
 date: 2018-08-15 9:31:07 +0200
 description: La vuelta a intentar tener Linux en el portátil.
 img: asus-t100ta.jpg # Add Image post (optional)
