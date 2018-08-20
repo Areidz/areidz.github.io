@@ -20,7 +20,7 @@ El proceso lo empecé mal, porque me descargué Ubuntu en vez de Xubuntu, aunque
 
 Para la instalación entera del sistema, seguí esta guía ([https://drive.google.com/file/d/1VTzciobFlp7nO2A_M7RNoqYajN8c9AgR/view](https://drive.google.com/file/d/1VTzciobFlp7nO2A_M7RNoqYajN8c9AgR/view)), así que si tenéis alguna duda, os recomiendo consultarla, porque aquí pasaré algunos detalles por alto.
 
-Manos a la obra: grabé la ISO en un pendrive con [Rufus](https://rufus.ie) y añadí el fichero `bootia32.efi` para que pudiese bootear el proceso de instalación. Tras encenderlo, seleccioné las opciones para tener el sistema a mi gusto y creé particiones usando todo el disco (borrando Windows y respetando el UEFI).
+Manos a la obra: grabé la ISO en un pen drive con [Rufus](https://rufus.ie) y añadí el fichero `bootia32.efi` para que pudiese bootear el proceso de instalación. Tras encenderlo, seleccioné las opciones para tener el sistema a mi gusto y creé particiones usando todo el disco (borrando Windows y respetando el UEFI).
 
 El primer problema empieza al terminar la instalación, y es el de **instalar el bootloader**. Para ello, hay que conectar el WiFi como nos indica la guía:
 
@@ -62,9 +62,11 @@ Con esto, tendríamos que tener el sonido funcionando, pudiendo modificar los pa
 
 Tras instalar el sistema operativo, en mi caso me gusta mucho mirar cómo puedo terminar de **optimizarlo** aunque ya funcione decentemente. Si os interesa mirar cómo podéis optimizar Xubuntu o cambiar ciertos valores para hacerlo más cómodo para vosotros, podéis echar un vistazo a esta guía: [https://sites.google.com/site/easylinuxtipsproject/first-xubuntu](https://sites.google.com/site/easylinuxtipsproject/first-xubuntu).
 
-Mi recomendación es que, al menos, decrementéis el uso del _swap_, optimicéis Firefox y desactivéis el uso de Java con LibreOffice (y algunas de las opciones que nos cuentan en la guía). No obstante, este tipo de tweaks pueden llevarnos a tener cierta inestabilidad en el sistema, como apunta Gérard Burger en este post: [https://plus.google.com/106814689810829884894/posts/MSQZ43hGm5c](https://plus.google.com/106814689810829884894/posts/MSQZ43hGm5c). 
+Mi recomendación es que, al menos, decrementéis el uso del _swap_, optimicéis Firefox y desactivéis el uso de Java con LibreOffice (y algunas de las opciones que nos cuentan en la guía). No obstante, este tipo de tweaks pueden llevarnos a tener cierta inestabilidad en el sistema, como apunta *Gérard Burger* en este post: [https://plus.google.com/106814689810829884894/posts/MSQZ43hGm5c](https://plus.google.com/106814689810829884894/posts/MSQZ43hGm5c). 
 
-Otros cambios que he hecho ha sido activar la sincronización vertical en XFCE después de cambiar el entorno de escritorio (ver Youtube o Netflix era un poco suplicio sin ello), instalar los _Restricted Extras_, activar los repositorios extra, y borrar los restos que quedaban de GNOME. 
+Otros cambios que he hecho ha sido activar la sincronización vertical en XFCE después de cambiar el entorno de escritorio (ver YouTube o Netflix era un poco suplicio sin ello), instalar los _Restricted Extras_, activar los repositorios extra, y borrar los restos que quedaban de GNOME. Además, he cambiado el movimiento del ratón, pasando de tener que pulsar dos dedos y deslizar hacia abajo o arriba como es el estándar en muchos de los touchpads, a realizar círculos en él, ya que me parece muchísimo más cómodo.
+
+Alguna cosa que me queda por cambiar, por ejemplo, es el uso de la pantalla táctil, que funciona como un ratón y sería interesante que funcionase como en Windows, bajo mi punto de vista: poder arrastrar los elementos en vez de tener que pinchar en la barra de deslizamiento. Para la navegación web es muchísimo más intuitivo y accesible, y seguro que de alguna manera se puede cambiar.
 
 Por ahora, no echo en falta nada de lo que hacía en Windows, así que seguiré al menos unos meses utilizándolo. Si tenéis cualquier duda respecto al proceso, no dudéis en contactarme por email o por Twitter.
 
