@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Education, music, technology and trips
 permalink: ':title/'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://areidz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rigle.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
@@ -13,7 +13,7 @@ about-author: I am a curious person, always hungry to keep learning.  # add desc
 social-twitter:  # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: Areidz # add your Github handle
-social-flickr: Areidz # add your Flickr handle
+social-flickr: # add your Flickr handle
 social-linkedin: Rigle # add your Linkedin handle
 social-email: rigle@pm.me # add your Email address
 
