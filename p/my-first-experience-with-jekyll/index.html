@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es-es">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='How I installed Jekyll on GitHub Pages and my first impressions.'><title>My first experience with Jekyll</title>
+
+<link rel='canonical' href='https://rigle.xyz/blog/p/my-first-experience-with-jekyll/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.css"><meta property='og:title' content='My first experience with Jekyll'>
+<meta property='og:description' content='How I installed Jekyll on GitHub Pages and my first impressions.'>
+<meta property='og:url' content='https://rigle.xyz/blog/p/my-first-experience-with-jekyll/'>
+<meta property='og:site_name' content='El Blog de Rigle'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='jekyll' /><meta property='article:tag' content='template' /><meta property='article:tag' content='github' /><meta property='article:tag' content='themes' /><meta property='article:published_time' content='2015-04-17T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2015-04-17T00:00:00&#43;00:00'/><meta property='og:image' content='https://rigle.xyz/blog/p/my-first-experience-with-jekyll/clean-blog.jpg' />
+<meta name="twitter:site" content="RigleOP"><meta name="twitter:title" content="My first experience with Jekyll">
+<meta name="twitter:description" content="How I installed Jekyll on GitHub Pages and my first impressions."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://rigle.xyz/blog/p/my-first-experience-with-jekyll/clean-blog.jpg' />
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Alternar menú">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/blog/img/avatar_hu57d7c43938da5d728d02e7183611cec1_32680_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🎙️</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://rigle.xyz/blog">El Blog de Rigle</a></h1>
+        <h2 class="site-description">Tecnología, podcasting y Super Smash Bros.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/blog'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Principal</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Más información</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archivos</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/search'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Buscador</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Modo oscuro</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://rigle.xyz/blog" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/p/my-first-experience-with-jekyll/">
+                <img src="/blog/p/my-first-experience-with-jekyll/clean-blog_huefeaf1f5bde804debb99f9412b6c9b15_39676_800x0_resize_q75_box.jpg"
+                        srcset="/blog/p/my-first-experience-with-jekyll/clean-blog_huefeaf1f5bde804debb99f9412b6c9b15_39676_800x0_resize_q75_box.jpg 800w, /blog/p/my-first-experience-with-jekyll/clean-blog_huefeaf1f5bde804debb99f9412b6c9b15_39676_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="480" 
+                        loading="lazy"
+                        alt="Featured image of post My first experience with Jekyll" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/github/" style="background-color: #2a9d8f; color: #fff;">
+                GitHub
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/blog/p/my-first-experience-with-jekyll/">My first experience with Jekyll</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        How I installed Jekyll on GitHub Pages and my first impressions.
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Apr 17, 2015</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <p>After almost seven years using <a class="link" href="https://www.wordpress.com/"  target="_blank" rel="noopener"
+    >Wordpress</a> and <a class="link" href="https://www.blogger.com/"  target="_blank" rel="noopener"
+    >Blogger</a> as my main blogging services, I have decided to change my mind, make a step forward and install a simple web/blog with a great frontend and without a complex database and their vulnerabilities. Furthermore, I do not like the feeling of Wordpress owning the content of my blog because it is hosted there.</p>
+<p>Having a look at the possibilities I decided to try <strong><a class="link" href="http://jekyllrb.com/"  target="_blank" rel="noopener"
+    >Jekyll</a></strong> on <strong><a class="link" href="https://pages.github.com/"  target="_blank" rel="noopener"
+    >GitHub Pages</a></strong>. Jekyll is a simple web/blog engine written in <a class="link" href="https://www.ruby-lang.org"  target="_blank" rel="noopener"
+    >Ruby</a> using static pages as entries and posts, so&hellip; no more databases!</p>
+<p>Posts are written in <strong><a class="link" href="http://daringfireball.net/projects/markdown/"  target="_blank" rel="noopener"
+    >Markdown</a></strong> style as raw-text and are automatically converted to static pages thought a template you can edit yourself.</p>
+<h2 id="installing-the-blog">Installing the blog</h2>
+<p>I am using Windows as my main Operative System and Debian as my secondary one. Due to this, I decided to install the server on Windows. This installation and configuration was not a trivial step, so I followed the <a class="link" href="http://jekyll-windows.juthilo.com/"  target="_blank" rel="noopener"
+    >official docs</a> to do so.</p>
+<p>The only problem I faced was installing <em>WDM</em>, which was not compiling in my machine. Nevertheless, everything seems to be working perfectly without it, so I am not going to try to fix it for a while.</p>
+<h2 id="folking-the-template">Folking the template</h2>
+<p>After looking for any good template to start the blog, I found <strong><a class="link" href="http://startbootstrap.com/template-overviews/clean-blog/"  target="_blank" rel="noopener"
+    >Clean Blog</a></strong>, an amazing template by <em><a class="link" href="http://startbootstrap.com/"  target="_blank" rel="noopener"
+    >Start Bootstrap</a></em>.</p>
+<p>I modified it to add support for <em>Disqus</em> following <a class="link" href="https://help.disqus.com/installation/jekyll-installation-instructions"  target="_blank" rel="noopener"
+    >this tutorial</a>. Thanks to this I have comments at the bottom of every post.</p>
+<p>In addition, I have added share buttons following <a class="link" href="http://codingtips.kanishkkunal.in/share-buttons-jekyll/"  target="_blank" rel="noopener"
+    >this guide</a>. I had to adapt it to my custom template by creating some new css and html files, loading the css file in <em>head.html</em> and adding the html to the post template. Maybe you could find it interesting.</p>
+<h2 id="useful-links">Useful links</h2>
+<p>To finish the post, I want to share some useful links:</p>
+<ul>
+<li><strong><a class="link" href="https://github.com/jekyll/jekyll/wiki/Sites"  target="_blank" rel="noopener"
+    >Examples</a></strong>: some examples of websites using *Jekyll.</li>
+<li><strong><a class="link" href="http://jekyllrb.com/"  target="_blank" rel="noopener"
+    >Jekyll</a></strong>: main <em>Jekyll</em> website with install guides and configuration tutorials.</li>
+<li><strong><a class="link" href="http://jekyll-windows.juthilo.com/"  target="_blank" rel="noopener"
+    >Jekyll for Windows</a></strong>: a website explaining how to install <em>Jekyll</em> on <em>Windows</em></li>
+<li><strong><a class="link" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"  target="_blank" rel="noopener"
+    >Markdown Cheatsheet</a></strong>: useful cheatsheet to write posts.</li>
+<li><a class="link" href="https://haisum.github.io/2014/11/07/jekyll-pygments-supported-highlighters/"  target="_blank" rel="noopener"
+    >Supported language highlighters in Pygments for Jekyll and GitHub Pages</a></li>
+</ul>
+<h2 id="july-2018-update">(July 2018 Update)</h2>
+<p>I have recovered some of the entries of my old Jekyll diary and I am posting them here, even though this blog has another template and design. These days I was using Sublime Text as editor, but lately I&rsquo;m liking <a class="link" href="https://code.visualstudio.com/"  target="_blank" rel="noopener"
+    >Visual Studio Code</a> a lot and I&rsquo;m editing this whole blog with it.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/tags/jekyll/">jekyll</a>
+        
+            <a href="/blog/tags/template/">template</a>
+        
+            <a href="/blog/tags/github/">github</a>
+        
+            <a href="/blog/tags/themes/">themes</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licenciado bajo CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2015 - 
+        
+        2021 El Blog de Rigle
+    </section>
+    
+    <section class="powerby">
+        Hecho con <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Tema <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> diseñado por <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

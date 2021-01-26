@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es-es">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='The love-hate I felt when I installed Linux on this laptop.'><title>Linux on my Asus T100TA</title>
+
+<link rel='canonical' href='https://rigle.xyz/blog/p/linux-on-my-asus-t100ta/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.css"><meta property='og:title' content='Linux on my Asus T100TA'>
+<meta property='og:description' content='The love-hate I felt when I installed Linux on this laptop.'>
+<meta property='og:url' content='https://rigle.xyz/blog/p/linux-on-my-asus-t100ta/'>
+<meta property='og:site_name' content='El Blog de Rigle'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Asus' /><meta property='article:tag' content='T100TA' /><meta property='article:tag' content='linux' /><meta property='article:published_time' content='2015-09-07T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2015-09-07T00:00:00&#43;00:00'/><meta property='og:image' content='https://rigle.xyz/blog/p/linux-on-my-asus-t100ta/programming.jpg' />
+<meta name="twitter:site" content="RigleOP"><meta name="twitter:title" content="Linux on my Asus T100TA">
+<meta name="twitter:description" content="The love-hate I felt when I installed Linux on this laptop."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://rigle.xyz/blog/p/linux-on-my-asus-t100ta/programming.jpg' />
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Alternar menú">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/blog/img/avatar_hu57d7c43938da5d728d02e7183611cec1_32680_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🎙️</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://rigle.xyz/blog">El Blog de Rigle</a></h1>
+        <h2 class="site-description">Tecnología, podcasting y Super Smash Bros.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/blog'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Principal</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Más información</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archivos</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/search'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Buscador</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Modo oscuro</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://rigle.xyz/blog" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/p/linux-on-my-asus-t100ta/">
+                <img src="/blog/p/linux-on-my-asus-t100ta/programming_hu7661d4e45f6239af78b0d3e98ae3fb9a_84061_800x0_resize_q75_box.jpg"
+                        srcset="/blog/p/linux-on-my-asus-t100ta/programming_hu7661d4e45f6239af78b0d3e98ae3fb9a_84061_800x0_resize_q75_box.jpg 800w, /blog/p/linux-on-my-asus-t100ta/programming_hu7661d4e45f6239af78b0d3e98ae3fb9a_84061_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="513" 
+                        loading="lazy"
+                        alt="Featured image of post Linux on my Asus T100TA" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/linux/" style="background-color: #2a9d8f; color: #fff;">
+                Linux
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/blog/p/linux-on-my-asus-t100ta/">Linux on my Asus T100TA</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        The love-hate I felt when I installed Linux on this laptop.
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Sep 07, 2015</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <p>This entry is going to be my <strong>linux diary</strong>, so I can keep on records the stuff I&rsquo;m doing on the tablet. Well, let&rsquo;s start from the beginning:</p>
+<h2 id="windows-hates-me">Windows hates me</h2>
+<p>This change started with the new update of Microsoft OS, <strong>Windows 10</strong>. I wanted to test it on my tablet, an <strong>Asus Transformer T100</strong> , to see how it was going. Even though I read a lot about its lack of privacy, I was also curious about all the changes like <strong>multi-desktop support</strong> (which both Linux and Macintosh have since ages) and <strong>Cortana</strong> , which offered a lot of <a class="link" href="http://www.pcworld.com/article/2874400/windows/windows-10-the-10-coolest-features-you-should-check-out-first.html"  target="_blank" rel="noopener"
+    >features</a> that seemed to be useful.</p>
+<p>So&hellip; I installed it and, as you can imagine, it lasted about 5 days installed. I&rsquo;ve found every new thing a <strong>waste</strong> of memory and CPU, and I had to reinstall some drivers like the touch-pad, because it wasn&rsquo;t working correctly. Thankfully, Microsoft offered a <strong>downgrade</strong> to Windows 8.1 if you didn&rsquo;t like Windows 10, so I tried it. Everything went perfect, except for a thing: That new driver which was installed during the time I was trying Windows 10 wasn&rsquo;t downgraded or something like that, and the desktop kept flashing and restarting even if I restarted the OS. That was the moment I gathered strength to <strong>install Ubuntu</strong> on my tablet.</p>
+<p>Why <strong>Ubuntu</strong>? Because it&rsquo;s the only <em>Linux</em> <strong>well tweaked</strong> to have almost every single component working. There are some exceptions of parts which aren&rsquo;t working, like the camera, the microphone and the hardware buttons (<a class="link" href="https://en.wikipedia.org/wiki/General-purpose_input/output"  target="_blank" rel="noopener"
+    >GPIO</a>), but the rest is working in a really stable way.</p>
+<h2 id="the-start-of-the-journey">The start of the journey</h2>
+<p>Taking this into account, I downloaded <a class="link" href="http://forum.xda-developers.com/windows-8-rt/win-8-development/live-asus-t100-ta-magic-stick-t3091481"  target="_blank" rel="noopener"
+    ><em>Asus T100-TA Magic Stick ISO</em></a>, version 1.5, I booted up <em>Ubuntu</em> and I <strong>installed it</strong> with the included tool to do so. I <strong>overwrote</strong> the complete <strong>internal flash memory</strong>, included the UEFI partition. I still have a <strong>backup</strong> in my <strong>external HDD</strong> just in case I want to recover my system as it was a couple of months ago, so I&rsquo;m not afraid to do so.</p>
+<p>First thing I&rsquo;ve done with the new OS is <strong>delete Unity</strong>. I hate that desktop environment, so I&rsquo;ve installed <strong>XFCE</strong>. To do so, I&rsquo;ve used a tool called <code>tasksel</code>. I&rsquo;ve used the following commands to install it and execute it:</p>
+<pre><code class="language-shell-session" data-lang="shell-session">~ $ sudo apt-get install tasksel
+~ $ sudo tasksel</code></pre>
+<p>After this, I&rsquo;ve checked <code>Xubuntu-desktop</code> and I&rsquo;ve unchecked <code>Ubuntu-desktop</code>. You have to <strong>wait a couple of minutes</strong> in order to download <em>XFCE</em> and uninstall <em>Unity</em> and other applications related, and then the OS reboots and you have <strong>Xubuntu</strong> totally compatible with your tablet.</p>
+<h2 id="programs-and-more-programs">Programs and more programs</h2>
+<p>Then, I&rsquo;ve updated the OS and I&rsquo;ve installed some useful programs:</p>
+<pre><code class="language-shell-session" data-lang="shell-session">~ $ sudo apt-get update &amp;&amp; sudo apt-get upgrade
+~ $ sudo apt-get install libreoffice gdebi-core synaptic aptitude vlc xubuntu-restricted-extras libavcodec-extra rar wireshark</code></pre>
+<p>Also, I&rsquo;ve installed <strong>Dropbox</strong> and <strong>Google Chrome</strong> (I don&rsquo;t really like <em>Chromium</em> now, because Google has done a great advance in <strong>memory handling</strong> and <em>Chromium</em> is still a bit slower and bigger than <em>Chrome</em>).</p>
+<p>To install <em>Chrome</em> I&rsquo;ve used:</p>
+<pre><code class="language-shell-session" data-lang="shell-session">~ $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb
+~ $ sudo gdebi google-chrome-stable_current_i386.deb</code></pre>
+<p>In order to install <em>Dropbox,</em> I&rsquo;ve gone to <a class="link" href="https://www.dropbox.com/install"  target="_blank" rel="noopener"
+    >dropbox.com/install</a> and I&rsquo;ve downloaded the <code>\*.deb</code> file, and followed the instructions.</p>
+<p>And that&rsquo;s everything I&rsquo;ve made today. I hope the <strong>touchpad support</strong> becomes <strong>better</strong> and it gives us multi-touch as Windows does. That&rsquo;s the only thing I miss, the ability to scroll pages with the touchpad.</p>
+<p>For further information, have a look at our Google+ Group: <a class="link" href="https://plus.google.com/communities/117853703024346186936"  target="_blank" rel="noopener"
+    >https://plus.google.com/communities/117853703024346186936</a></p>
+<h2 id="june-2018-update">(June 2018 Update)</h2>
+<p>Even though I was really motivated with the change to Linux, I switched it back to Windows after 6 months using Linux for the following reasons:</p>
+<ol>
+<li>My feeling of the performance wasn&rsquo;t the same as using Windows. Even in 2018, we don&rsquo;t have complete support for this tablet, and we have to take some workarounds in order to have everything working. And there are some things that probably won&rsquo;t work easily, like the camera.</li>
+<li>I wasn&rsquo;t using Linux for anything I couldn&rsquo;t do in Windows and I needed some Windows programs for my University courses.</li>
+</ol>
+<p>However, I have a constant feeling that maybe I should give it a try again. Will I do it? How knows, but if I do it, I&rsquo;ll keep you informed here ;)</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/tags/asus/">Asus</a>
+        
+            <a href="/blog/tags/t100ta/">T100TA</a>
+        
+            <a href="/blog/tags/linux/">linux</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licenciado bajo CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Contenido relacionado</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/blog/p/xubuntu-18.04-en-el-t100ta/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/p/xubuntu-18.04-en-el-t100ta/asus-t100ta.a8ece752f80f8a2a4096d50219f54c02_huc196f110449e0a34896d973121650305_113027_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy" 
+                        data-key="" 
+                        data-hash="md5-qOznUvgPiipAltUCGfVMAg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Xubuntu 18.04 en el T100TA</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2015 - 
+        
+        2021 El Blog de Rigle
+    </section>
+    
+    <section class="powerby">
+        Hecho con <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Tema <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> diseñado por <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

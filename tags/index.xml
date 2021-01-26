@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on El Blog de Rigle</title>
+    <link>https://rigle.xyz/blog/tags/</link>
+    <description>Recent content in Tags on El Blog de Rigle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Wed, 15 Aug 2018 09:31:07 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asus</title>
+      <link>https://rigle.xyz/blog/tags/asus/</link>
+      <pubDate>Wed, 15 Aug 2018 09:31:07 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/asus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://rigle.xyz/blog/tags/linux/</link>
+      <pubDate>Wed, 15 Aug 2018 09:31:07 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>T100TA</title>
+      <link>https://rigle.xyz/blog/tags/t100ta/</link>
+      <pubDate>Wed, 15 Aug 2018 09:31:07 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/t100ta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://rigle.xyz/blog/tags/github/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://rigle.xyz/blog/tags/jekyll/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>template</title>
+      <link>https://rigle.xyz/blog/tags/template/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://rigle.xyz/blog/tags/themes/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>student</title>
+      <link>https://rigle.xyz/blog/tags/student/</link>
+      <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/student/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

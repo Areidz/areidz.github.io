@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on El Blog de Rigle</title>
+    <link>https://rigle.xyz/blog/tags/github/</link>
+    <description>Recent content in github on El Blog de Rigle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 17 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My first experience with Jekyll</title>
+      <link>https://rigle.xyz/blog/p/my-first-experience-with-jekyll/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/p/my-first-experience-with-jekyll/</guid>
+      <description>After almost seven years using Wordpress and Blogger as my main blogging services, I have decided to change my mind, make a step forward and install a simple web/blog with a great frontend and without a complex database and their vulnerabilities. Furthermore, I do not like the feeling of Wordpress owning the content of my blog because it is hosted there.
+Having a look at the possibilities I decided to try Jekyll on GitHub Pages.</description>
+    </item>
+    
+    <item>
+      <title>GitHub student pack</title>
+      <link>https://rigle.xyz/blog/p/github-student-pack/</link>
+      <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/p/github-student-pack/</guid>
+      <description>Github is undoubtedly one of the largest webpages when it comes to sharing work with the community. Also, Github allows us to work as a team with the Git version control tools and a nice frontend.
+What is the best way to promote the use of this kind of tools among the student? I don&amp;rsquo;t know about your answer, but Github thinks that offering a &amp;ldquo;starter pack&amp;rdquo; is one of the best ways: The GitHub Student Developer Pack.</description>
+    </item>
+    
+  </channel>
+</rss>

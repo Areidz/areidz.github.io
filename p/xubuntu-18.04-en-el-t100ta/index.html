@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es-es">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='La vuelta a intentar tener Linux en el portátil.'><title>Xubuntu 18.04 en el T100TA</title>
+
+<link rel='canonical' href='https://rigle.xyz/blog/p/xubuntu-18.04-en-el-t100ta/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.css"><meta property='og:title' content='Xubuntu 18.04 en el T100TA'>
+<meta property='og:description' content='La vuelta a intentar tener Linux en el portátil.'>
+<meta property='og:url' content='https://rigle.xyz/blog/p/xubuntu-18.04-en-el-t100ta/'>
+<meta property='og:site_name' content='El Blog de Rigle'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Asus' /><meta property='article:tag' content='T100TA' /><meta property='article:tag' content='linux' /><meta property='article:published_time' content='2018-08-15T09:31:07&#43;00:00'/><meta property='article:modified_time' content='2018-08-15T09:31:07&#43;00:00'/><meta property='og:image' content='https://rigle.xyz/blog/p/xubuntu-18.04-en-el-t100ta/asus-t100ta.jpg' />
+<meta name="twitter:site" content="RigleOP"><meta name="twitter:title" content="Xubuntu 18.04 en el T100TA">
+<meta name="twitter:description" content="La vuelta a intentar tener Linux en el portátil."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://rigle.xyz/blog/p/xubuntu-18.04-en-el-t100ta/asus-t100ta.jpg' />
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Alternar menú">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/blog/img/avatar_hu57d7c43938da5d728d02e7183611cec1_32680_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🎙️</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="https://rigle.xyz/blog">El Blog de Rigle</a></h1>
+        <h2 class="site-description">Tecnología, podcasting y Super Smash Bros.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/blog'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Principal</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/about'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Más información</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/archives'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archivos</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/search'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Buscador</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Modo oscuro</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="https://rigle.xyz/blog" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/p/xubuntu-18.04-en-el-t100ta/">
+                <img src="/blog/p/xubuntu-18.04-en-el-t100ta/asus-t100ta_huc196f110449e0a34896d973121650305_113027_800x0_resize_q75_box.jpg"
+                        srcset="/blog/p/xubuntu-18.04-en-el-t100ta/asus-t100ta_huc196f110449e0a34896d973121650305_113027_800x0_resize_q75_box.jpg 800w, /blog/p/xubuntu-18.04-en-el-t100ta/asus-t100ta_huc196f110449e0a34896d973121650305_113027_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post Xubuntu 18.04 en el T100TA" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/linux/" style="background-color: #2a9d8f; color: #fff;">
+                Linux
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/blog/p/xubuntu-18.04-en-el-t100ta/">Xubuntu 18.04 en el T100TA</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        La vuelta a intentar tener Linux en el portátil.
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Aug 15, 2018</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <p>Tras ver las últimas actualizaciones en los kernels, consultar el <a class="link" href="https://plus.google.com/communities/117853703024346186936"  target="_blank" rel="noopener"
+    >grupo de Google Plus</a> y la nueva guía que han hecho describiendo el proceso de instalación de una manera sencilla, me he aventurado a volver a tener Linux en el pequeñín. Además, gran parte de los problemas que había (no funcionaban los botones físicos, ni la retroiluminación, ni el micrófono&hellip;) han sido solucionados.</p>
+<p>Como ya expliqué en <a class="link" href="https://areidz.github.io/blog/linux-on-asus-transformer/"  target="_blank" rel="noopener"
+    >la entrada</a> que redacté en inglés hace unos años, lo primero que hice fue una copia de seguridad del disco duro entero con <a class="link" href="https://www.macrium.com/reflectfree"  target="_blank" rel="noopener"
+    >Macrium Reflect</a>, ya que solo tiene 64GB como máximo y, por si rompo algo que no debería, prefiero tener la copia entera.</p>
+<p>La decisión de cambiar a Linux es bastante personal. En Windows 10 todo <strong>funciona perfectamente</strong> y es un sistema bastante estable para la tablet, mientras que en Xubuntu no funciona la cámara y hay que hacer algún apaño para que funcione el sonido, que no funciona por defecto tras la instalación. En mi caso, estoy muy familiarizado con un entorno Windows, y me gustaría aprender a <strong>manejarme más con la terminal de Linux</strong> y, en general, adaptarme más al sistema. Además, aunque el precio de la licencia Windows venga incluida en el precio del portátil, me llama mucho la <strong>filosofía del software libre</strong>, y utilizando Windows no puedo terminar de comprenderla plenamente. Si queréis echarla un ojo, aquí tenéis el enlace: <a class="link" href="https://www.gnu.org/philosophy/philosophy.es.html"  target="_blank" rel="noopener"
+    >https://www.gnu.org/philosophy/philosophy.es.html</a></p>
+<h2 id="instalación">Instalación</h2>
+<p>El proceso lo empecé mal, porque me descargué Ubuntu en vez de Xubuntu, aunque así pude probar también la nueva versión de GNOME y cómo funcionaba en el portátil.</p>
+<p>Para la instalación entera del sistema, seguí <a class="link" href="https://drive.google.com/file/d/1VTzciobFlp7nO2A_M7RNoqYajN8c9AgR/view"  target="_blank" rel="noopener"
+    >esta guía</a>, así que si tenéis alguna duda, os recomiendo consultarla, porque aquí pasaré algunos detalles por alto.</p>
+<p>Manos a la obra: grabé la ISO en un pen drive con <a class="link" href="https://rufus.ie"  target="_blank" rel="noopener"
+    >Rufus</a> y añadí el fichero <code>bootia32.efi</code> para que pudiese bootear el proceso de instalación. Tras encenderlo, seleccioné las opciones para tener el sistema a mi gusto y creé particiones usando todo el disco (borrando Windows y respetando el UEFI).</p>
+<p>El primer problema empieza al terminar la instalación, y es el de <strong>instalar el bootloader</strong>. Para ello, hay que conectar el WiFi como nos indica la guía:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">cp /sys/firmware/efi/efivars/nvram-* /lib/firmware/brcm/brcmfmac43241b4-sdio.txt <span class="c1">#useful now</span>
+cp /sys/firmware/efi/efivars/nvram-*  /target/lib/firmware/brcm/brcmfmac43241b4-sdio.txt <span class="c1">#useful after reboot</span>
+modprobe -r brcmfmac
+modprobe brcmfmac
+</code></pre></div><p>Y pasar a instalar el bootloader:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">apt update
+apt install grub-efi-ia32 <span class="c1"># grub-pc removed is normal behavior</span>
+grub-install --efi-directory /boot/efi
+update-grub
+</code></pre></div><p>El segundo problema viene al <strong>intentar tener sonido</strong>. Para que funcione, tenemos que descargar <a class="link" href="https://drive.google.com/drive/folders/0B4DiU2o72FbuOXdwRXhfZ3ZmOFE?tid=0B9C1WK1FQhjfcXNrbzN6djQzajg"  target="_blank" rel="noopener"
+    >esta carpeta de ficheros</a>, extraerla y seguir las instrucciones:</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo rm /var/lib/alsa/asound.state
+sudo mkdir /usr/share/alsa/ucm/bytcr-rt5640
+sudo cp HiFi bytcr-rt5640.conf /usr/share/alsa/ucm/bytcr-rt5640
+sudo alsactl restore
+</code></pre></div><p>Tras esto, bajamos el volumen y reiniciamos, aunque todavía no tendremos sonido. Nos queda copiar un fichero para sustituir el que se acaba de crear automáticamente.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo cp kernel4.5.xand4.4.x.asound.state /var/lib/alsa/asound.state
+sudo alsactl restore
+</code></pre></div><p>Con esto, tendríamos que tener el sonido funcionando, pudiendo modificar los parámetros con <em>Pulseaudio</em> con el comando <code>pavucontrol</code>.</p>
+<h2 id="post-instalación">Post instalación</h2>
+<p>Tras instalar el sistema operativo, en mi caso me gusta mucho mirar cómo puedo terminar de <strong>optimizarlo</strong> aunque ya funcione decentemente. Si os interesa mirar cómo podéis optimizar Xubuntu o cambiar ciertos valores para hacerlo más cómodo para vosotros, podéis echar un vistazo a esta guía: <a class="link" href="https://sites.google.com/site/easylinuxtipsproject/first-xubuntu"  target="_blank" rel="noopener"
+    >https://sites.google.com/site/easylinuxtipsproject/first-xubuntu</a>.</p>
+<p>Mi recomendación es que, al menos, decrementéis el uso del <em>swap</em>, optimicéis Firefox y desactivéis el uso de Java con LibreOffice (y algunas de las opciones que nos cuentan en la guía). No obstante, este tipo de tweaks pueden llevarnos a tener cierta inestabilidad en el sistema, como apunta <em>Gérard Burger</em> en este post: <a class="link" href="https://plus.google.com/106814689810829884894/posts/MSQZ43hGm5c"  target="_blank" rel="noopener"
+    >https://plus.google.com/106814689810829884894/posts/MSQZ43hGm5c</a>.</p>
+<p>Otros cambios que he hecho ha sido activar la <strong>sincronización vertical</strong> en XFCE después de cambiar el entorno de escritorio (ver YouTube o Netflix era un poco suplicio sin ello), instalar los <em>Restricted Extras</em>, activar los repositorios extra, y borrar los restos que quedaban de GNOME. Además, he cambiado el movimiento del ratón, pasando de tener que pulsar dos dedos y deslizar hacia abajo o arriba como es el estándar en muchos de los touchpads, a realizar círculos en él, ya que me parece muchísimo más cómodo.</p>
+<p>Si os dáis cuenta, esta vez no he instalado ni Dropbox ni Chrome, porque no los estoy usando tanto como lo hacía en la universidad. Además, esta vez he instalado <em>Visual Studio Code</em>, porque me he acostumbrado a esta mezcla a caballo entre editor de código e IDE modular, que me permite trabajar con bastante soltura una vez vas cogiendo el truco. Si lo instaláis y queréis ir aprendiendo los accesos rápidos o distintas configuraciones que podéis cambiar, tenéis un buen tutorial <a class="link" href="https://github.com/Microsoft/vscode-tips-and-tricks"  target="_blank" rel="noopener"
+    >en este repositorio de Microsoft</a>. Por ejemplo, esta entrada la estoy editando completamente con este editor, pudiendo ver la previsualización de <em>Markdown</em> con la combinación <code>ctrl+shift+v</code> (y, es más, con <code>ctrl+k v</code> se puede tener una previsualización en directo mientras realizamos cambios), y pudiendo gestionar git directamente en él.</p>
+<p>Alguna cosa que me queda por cambiar, por ejemplo, es el uso de la pantalla táctil, que funciona como un ratón y sería interesante que funcionase como en Windows, bajo mi punto de vista: poder arrastrar los elementos en vez de tener que pinchar en la barra de deslizamiento. Para la navegación web es muchísimo más intuitivo y accesible, y seguro que de alguna manera se puede cambiar.</p>
+<p>Por ahora, no echo en falta nada de lo que hacía en Windows, así que seguiré al menos unos meses utilizándolo. Si tenéis cualquier duda respecto al proceso, no dudéis en contactarme por email o por Twitter.</p>
+<p>¡Un saludo!</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/tags/asus/">Asus</a>
+        
+            <a href="/blog/tags/t100ta/">T100TA</a>
+        
+            <a href="/blog/tags/linux/">linux</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licenciado bajo CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">Contenido relacionado</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/blog/p/linux-on-my-asus-t100ta/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/p/linux-on-my-asus-t100ta/programming.8dea61f7a0a6bcb640173164d5c9749b_hu7661d4e45f6239af78b0d3e98ae3fb9a_84061_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy" 
+                        data-key="" 
+                        data-hash="md5-jeph96CmvLZAFzFk1cl0mw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Linux on my Asus T100TA</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2015 - 
+        
+        2021 El Blog de Rigle
+    </section>
+    
+    <section class="powerby">
+        Hecho con <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Tema <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> diseñado por <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
