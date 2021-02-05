@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rigle.xyz/blog/about/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
+    <loc>https://rigle.xyz/blog/categories/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rigle.xyz/blog/tags/logitech/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rigle.xyz/blog/p/mi-setup-de-podcasting-y-streaming/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rigle.xyz/blog/tags/podcast/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rigle.xyz/blog/categories/podcast/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rigle.xyz/blog/post/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rigle.xyz/blog/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rigle.xyz/blog/tags/stream/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rigle.xyz/blog/tags/</loc>
+    <lastmod>2021-02-05T16:31:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rigle.xyz/blog/about/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://rigle.xyz/blog/categories/</loc>
-    <lastmod>2018-08-15T09:31:07+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rigle.xyz/blog/categories/linux/</loc>
     <lastmod>2018-08-15T09:31:07+00:00</lastmod>
   </url>
@@ -43,17 +78,7 @@
   </url>
   
   <url>
-    <loc>https://rigle.xyz/blog/post/</loc>
-    <lastmod>2018-08-15T09:31:07+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rigle.xyz/blog/tags/t100ta/</loc>
-    <lastmod>2018-08-15T09:31:07+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rigle.xyz/blog/tags/</loc>
     <lastmod>2018-08-15T09:31:07+00:00</lastmod>
   </url>
   

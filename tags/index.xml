@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on El Blog de Rigle</title>
+    <title>Tags on Rodrigo &#39;Rigle&#39; Iglesias</title>
     <link>https://rigle.xyz/blog/tags/</link>
-    <description>Recent content in Tags on El Blog de Rigle</description>
+    <description>Recent content in Tags on Rodrigo &#39;Rigle&#39; Iglesias</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 15 Aug 2018 09:31:07 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 16:31:07 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logitech</title>
+      <link>https://rigle.xyz/blog/tags/logitech/</link>
+      <pubDate>Fri, 05 Feb 2021 16:31:07 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/logitech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>https://rigle.xyz/blog/tags/podcast/</link>
+      <pubDate>Fri, 05 Feb 2021 16:31:07 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stream</title>
+      <link>https://rigle.xyz/blog/tags/stream/</link>
+      <pubDate>Fri, 05 Feb 2021 16:31:07 +0000</pubDate>
+      
+      <guid>https://rigle.xyz/blog/tags/stream/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Asus</title>
       <link>https://rigle.xyz/blog/tags/asus/</link>

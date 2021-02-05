@@ -1,12 +1,163 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>El Blog de Rigle</title>
+        <title>Rodrigo &#39;Rigle&#39; Iglesias</title>
         <link>https://rigle.xyz/blog/</link>
-        <description>Recent content on El Blog de Rigle</description>
+        <description>Recent content on Rodrigo &#39;Rigle&#39; Iglesias</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>es-es</language>
-        <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 05 Feb 2021 16:31:07 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Mi setup de Podcasting y Streaming</title>
+        <link>https://rigle.xyz/blog/p/mi-setup-de-podcasting-y-streaming/</link>
+        <pubDate>Fri, 05 Feb 2021 16:31:07 +0000</pubDate>
+        
+        <guid>https://rigle.xyz/blog/p/mi-setup-de-podcasting-y-streaming/</guid>
+        <description>&lt;img src="https://rigle.xyz/blog/p/mi-setup-de-podcasting-y-streaming/setup.jpg" alt="Featured image of post Mi setup de Podcasting y Streaming" /&gt;&lt;p&gt;Hace 5 meses que empecé a grabar el podcast de &lt;a class=&#34;link&#34; href=&#34;https://youtube.com/c/ElUltimoFrame&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;El Último Frame&lt;/a&gt; con frecuencia casi semanal, y tras este tiempo creo que he conseguido una setup de grabación bastante decente. Hay elementos que se podrían mejorar, como es el caso del micrófono, ya que aunque tiene una calidad aceptable, los hay bastante mejores y que captan menos ruido. No obstante, para mi situación actual es más que suficiente para proporcionar &lt;strong&gt;una buena calidad&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Sin más dilación, vamos a cada uno de los apartados de la configuración.&lt;/p&gt;
+&lt;h1 id=&#34;sonido&#34;&gt;Sonido&lt;/h1&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 177; flex-basis: 426px&#34;&gt;
+		&lt;a href=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Fifine.jpg&#34; data-size=&#34;4000x2250&#34;&gt;&lt;img src=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Fifine.jpg&#34;
+				srcset=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Fifine_hu7d8a5ff5ec5e2218cfb1003963328584_207600_480x0_resize_q75_box.jpg 480w, https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Fifine_hu7d8a5ff5ec5e2218cfb1003963328584_207600_1024x0_resize_q75_box.jpg 1024w&#34;
+				width=&#34;4000&#34;
+				height=&#34;2250&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Brazo Neewer y Fifine K669K&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Brazo Neewer y Fifine K669K&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Desde el principio he tenido el micrófono &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://amzn.to/3oRRCSJ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Fifine K669B&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;, que compré hace tiempo por ~20€ en Amazon. El problema principal es que coge mucho ruido, por lo que tenerlo cerca del teclado y que a la vez se me escuchase era inviable. De ahí que comprase un &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://amzn.to/3oUl36H&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;brazo Neewer&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; para ponerlo en la mesa y poder tener el micrófono con menos ganancia cerca de la boca.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 100; flex-basis: 240px&#34;&gt;
+		&lt;a href=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/voicemeeter.jpg&#34; data-size=&#34;301x301&#34;&gt;&lt;img src=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/voicemeeter.jpg&#34;
+				srcset=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/voicemeeter_hu1629f14526f2318d77ff62085580b0c1_17303_480x0_resize_q75_box.jpg 480w, https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/voicemeeter_hu1629f14526f2318d77ff62085580b0c1_17303_1024x0_resize_q75_box.jpg 1024w&#34;
+				width=&#34;301&#34;
+				height=&#34;301&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Logo Voicemeeter&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Logo Voicemeeter&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Además, desde hace poco utilizo el software &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://vb-audio.com/Voicemeeter/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Voice Meeter&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;, que me permite eliminar cierta reverberación que existe en mi habitación y realzar los bajos para se escuche más como una locución.&lt;/p&gt;
+&lt;h1 id=&#34;vídeo&#34;&gt;Vídeo&lt;/h1&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 177; flex-basis: 426px&#34;&gt;
+		&lt;a href=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/C%C3%A1maras.jpg&#34; data-size=&#34;4000x2250&#34;&gt;&lt;img src=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/C%C3%A1maras.jpg&#34;
+				srcset=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/C%C3%A1maras_hu8611f66e97ff72bad96ce0731067e7c4_853664_480x0_resize_q75_box.jpg 480w, https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/C%C3%A1maras_hu8611f66e97ff72bad96ce0731067e7c4_853664_1024x0_resize_q75_box.jpg 1024w&#34;
+				width=&#34;4000&#34;
+				height=&#34;2250&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Logitech Streamcam y Microsoft Livecam HD3000&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Logitech Streamcam y Microsoft Livecam HD3000&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Al comienzo grababa con una antigua cámara que me regaló mi novia, una &lt;em&gt;&lt;strong&gt;Microsoft Livecam HD3000&lt;/strong&gt;&lt;/em&gt;, que es suficientemente buena para la edad que tiene (por poneros en contexto, el programa para configurarlo se actualizó por última vez para Windows 7 y ofrece integración con &lt;em&gt;MSN Messenger&lt;/em&gt;). Durante esta época apañé la iluminación con un aro de luz muy típico de tiktokers.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 177; flex-basis: 426px&#34;&gt;
+		&lt;a href=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Focos.jpg&#34; data-size=&#34;4000x2250&#34;&gt;&lt;img src=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Focos.jpg&#34;
+				srcset=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Focos_hu27780fb92567b8c0f1d9e3a63c246925_222183_480x0_resize_q75_box.jpg 480w, https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Focos_hu27780fb92567b8c0f1d9e3a63c246925_222183_1024x0_resize_q75_box.jpg 1024w&#34;
+				width=&#34;4000&#34;
+				height=&#34;2250&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Iluminación con focos Neewer&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Iluminación con focos Neewer&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Este invierno he hecho una actualización grande en este apartado, comprándome una &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://amzn.to/3pX3CUf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logitech Streamcam&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; que me ofrece hasta 1080p a 60fps por unos 100€, y unos &lt;em&gt;&lt;strong&gt;focos Neewer&lt;/strong&gt;&lt;/em&gt; por 40€ en Aliexpress. La actualización ha merecido la pena, ya que el salto de calidad es notorio.&lt;/p&gt;
+&lt;p&gt;En algún intento intermedio de aumentar la calidad compré una &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://es.aliexpress.com/item/4001018830585.html?spm=a2g0o.productlist.0.0.d50c7cd4eNABMz&amp;amp;algo_pvid=6cfa8904-27d4-44f1-865a-d24ae0eb7655&amp;amp;algo_expid=6cfa8904-27d4-44f1-865a-d24ae0eb7655-0&amp;amp;btsid=0b0a0ac216125531349391745e6dce&amp;amp;ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Papalook AF925&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;, pero no me terminaron de gustar los colores que sacaba. Aunque la comparen con una &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://amzn.to/2MWGTZS&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logitech C920 HD&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;, para mí es bastante peor (Aunque sí que es verdad que por 30€ en Aliexpress, con los precios actuales de las webcam, no es tan mala compra si tienes buena iluminación).&lt;/p&gt;
+&lt;h1 id=&#34;grabación&#34;&gt;Grabación&lt;/h1&gt;
+&lt;p&gt;Los programas principales que utilizo para grabar son &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://discord.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Discord&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;, ya que realizo entrevistas y me aporta una calidad suficiente tanto de audio como de vídeo, y &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://obsproject.com/es&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OBS Studio&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; para capturar la zona de la pantalla donde sucede la conversación.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 100; flex-basis: 240px&#34;&gt;
+		&lt;a href=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/obs.png&#34; data-size=&#34;256x256&#34;&gt;&lt;img src=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/obs.png&#34;
+				srcset=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/obs_hu84c8e3038fc5a11fcf7e67d84fa16a70_33743_480x0_resize_box_2.png 480w, https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/obs_hu84c8e3038fc5a11fcf7e67d84fa16a70_33743_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;256&#34;
+				height=&#34;256&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Logo OBS Studio&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Logo OBS Studio&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Además, OBS tiene opción de capturar diferentes salidas y entradas de audio en &lt;strong&gt;diferentes pistas del MKV&lt;/strong&gt;, lo que me permite capturar mi micrófono y el del entrevistado en pistas diferentes y poder editarlo de forma independiente.&lt;/p&gt;
+&lt;p&gt;Hice &lt;strong&gt;pruebas con Zoom&lt;/strong&gt; para ver si podía grabar con él los episodios, pero la calidad se modificaba automáticamente aunque estuviese puesto el HD, y la auto grabación tiene una &lt;strong&gt;calidad nefasta&lt;/strong&gt; (véase la calidad del &lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/watch?v=_3dCsFz9YKU&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;primer episodio de mi podcast a Trifasia&lt;/a&gt;).&lt;/p&gt;
+&lt;h1 id=&#34;producción&#34;&gt;Producción&lt;/h1&gt;
+&lt;p&gt;A la hora de editar, lo primero que realizo es una &lt;strong&gt;conversión del MKV a MP4 con Handbrake&lt;/strong&gt; para poderlo editar directamente en Premiere Pro. Desde la versión 2019.3 &lt;strong&gt;no incluye soporte para MKV&lt;/strong&gt;, por lo que es un paso que ha tocado añadir recientemente por actualizar el software. He probado otras alternativas como &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.blackmagicdesign.com/es/products/davinciresolve/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Davinci Resolve&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; y, aunque estoy por pasar a utilizarlo para no pagar la licencia de Adobe, tampoco admite MKV y tengo que sacar tiempo para adaptarme.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 100; flex-basis: 240px&#34;&gt;
+		&lt;a href=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Premiere.png&#34; data-size=&#34;256x256&#34;&gt;&lt;img src=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Premiere.png&#34;
+				srcset=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Premiere_hu4bad4f7728b5fb832c72c83fd91af1fe_7814_480x0_resize_box_2.png 480w, https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/Premiere_hu4bad4f7728b5fb832c72c83fd91af1fe_7814_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;256&#34;
+				height=&#34;256&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Logo Adobe Premiere Pro&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Logo Adobe Premiere Pro&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Tras esto, importo la grabación a una plantilla que tengo diseñada en Premiere. En ella podemos ver algunos vídeos que se repiten, como la intro, la outro, algún sonido, el número del episodio… Y tengo una secuencia diseñada con todo editado para que sea añadir la grabación, realizar los cortes necesarios y que me lleve el menor tiempo posible.&lt;/p&gt;
+&lt;p&gt;Normalmente &lt;strong&gt;el audio lo edito directamente en Adobe Premiere&lt;/strong&gt;. Al tener la información en pistas, puedo trabajar añadiendo los efectos sobre estas en vez de en cada apartado del podcast, ahorrándome muchísimo tiempo. Además, &lt;strong&gt;no soy de añadir música a los podcast&lt;/strong&gt;, ya que al estar preparados se pueden minimizar los silencios (al igual que sí lo añadiría a un Talkshow en directo), por lo que tampoco es necesaria mayor edición.&lt;/p&gt;
+&lt;p&gt;Tras esto, exporto con la opción de &lt;em&gt;YouTube HD 1080p&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Para la miniatura de YouTube también he creado una plantilla, en la cual edito el número del episodio y el título, cambio al entrevistado o entrevistada y pongo un fondo relacionado con la entrevista. Para esto utilizo Photoshop al tener la licencia de Adobe, pero es posible que termine pivotando hacia &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gimp.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GIMP&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;, y más con la &lt;a class=&#34;link&#34; href=&#34;https://hipertextual.com/2020/06/photogimp-convertir-gimp-photoshop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;posibilidad de ponerle la skin de Photoshop&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;distribución&#34;&gt;Distribución&lt;/h1&gt;
+&lt;p&gt;El podcast lo comparto principalmente en dos plataformas: &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/c/ElUltimoFrame&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;YouTube&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt; y &lt;em&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://anchor.fm/elultimoframe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Anchor&lt;/a&gt;&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;figure style=&#34;flex-grow: 212; flex-basis: 509px&#34;&gt;
+		&lt;a href=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/anchor-spotify.png&#34; data-size=&#34;520x245&#34;&gt;&lt;img src=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/anchor-spotify.png&#34;
+				srcset=&#34;https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/anchor-spotify_hud5a90ec536ffd138cc2538ddcc02bcce_6814_480x0_resize_box_2.png 480w, https://rigle.xyz/blog/blog/p/mi-setup-de-podcasting-y-streaming/anchor-spotify_hud5a90ec536ffd138cc2538ddcc02bcce_6814_1024x0_resize_box_2.png 1024w&#34;
+				width=&#34;520&#34;
+				height=&#34;245&#34;
+				loading=&#34;lazy&#34;
+				alt=&#34;Logos de Anchor y Spotify&#34;&gt;
+		&lt;/a&gt;
+		
+		&lt;figcaption&gt;Logos de Anchor y Spotify&lt;/figcaption&gt;
+		
+	&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;La primera la configuro en &lt;strong&gt;modo estreno programado&lt;/strong&gt;, con su miniatura y sus metadatos, y compruebo que todo funciona correctamente. La segunda lo distribuye a otras plataformas añadidas (&lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://open.spotify.com/show/4dDPHZeRT62vYzZzpd88ys&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Spotify&lt;/a&gt;&lt;/em&gt;, &lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.ivoox.com/podcast-ultimo-frame_sq_f11042245_1.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ivoox&lt;/a&gt;&lt;/em&gt;, &lt;em&gt;&lt;a class=&#34;link&#34; href=&#34;https://podcasts.apple.com/us/podcast/el-%C3%BAltimo-frame/id1531748199?uo=4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apple Podcast&lt;/a&gt;&lt;/em&gt;…) de una manera automática, gratuita, aunque &lt;strong&gt;sin acceso a monetización&lt;/strong&gt;. Por ahora no tengo una audiencia tan grande como para plantearme monetizarlo, y si se da el caso, ya veré qué plataformas me pueden servir para ello.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Transformar el vídeo producido a audio&lt;/strong&gt; es tan sencillo como usar ffmpeg y arrastrar el archivo a este script:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;@echo off
+
+ffmpeg.exe -i &lt;span class=&#34;s2&#34;&gt;&amp;#34;%~1&amp;#34;&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;%~1&amp;#34;&lt;/span&gt;.mp3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Para promocionarlo hago &lt;strong&gt;clips del vídeo y los subo a Twitter&lt;/strong&gt;. También tengo un script en ffmpeg para ello:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;@echo off
+&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; /p &lt;span class=&#34;nv&#34;&gt;TiempoInicio&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Tiempo de inicio &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;hh:mm:ss&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; /p &lt;span class=&#34;nv&#34;&gt;TiempoFinal&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Tiempo de fin &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;hh:mm:ss&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+
+ffmpeg.exe -i &lt;span class=&#34;s2&#34;&gt;&amp;#34;%~1&amp;#34;&lt;/span&gt; -ss %TiempoInicio% -to %TiempoFinal% -async &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; -strict -2 corte.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;De hecho, hace poco me han &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/Kinoli7/status/1357641200392687618&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;contado en twitter&lt;/a&gt; que se puede configurar OBS Studio para que haga la conversión de MKV a MP4 automáticamente, así que me da que es algo donde voy a ganar algo de tiempo.&lt;/p&gt;
+&lt;h1 id=&#34;final&#34;&gt;FINAL&lt;/h1&gt;
+&lt;p&gt;Espero que toda esta información te haya resultado &lt;strong&gt;útil para preparar tu podcast&lt;/strong&gt;, elegir componentes o ver qué realiza otra gente de la comunidad. Además de utilizarla para podcasting, también la uso para &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://twitch.tv/RigleOP&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;realizar streamings en Twitch&lt;/a&gt;&lt;/strong&gt; y grabar otra clase de &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtube.com/c/Rigle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;vídeos para YouTube&lt;/a&gt;&lt;/strong&gt;, ya que la calidad de la cámara es genial.&lt;/p&gt;
+&lt;p&gt;Si quieres darme algo de vuelta, te agradecería que te pasases por el &lt;a class=&#34;link&#34; href=&#34;https://youtube.com/c/ElUltimoFrame&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;canal de YouTube del Podcast&lt;/a&gt; y me dejases algún comentario, suscripción o &amp;ldquo;me gusta&amp;rdquo; a alguno de los podcast, ya que toda ayuda es poca para intentar difundirlo.&lt;/p&gt;
+&lt;p&gt;¡Muchas gracias y nos vemos!&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Xubuntu 18.04 en el T100TA</title>
         <link>https://rigle.xyz/blog/p/xubuntu-18.04-en-el-t100ta/</link>
         <pubDate>Wed, 15 Aug 2018 09:31:07 +0000</pubDate>
