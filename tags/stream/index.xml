@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stream on Rodrigo &#39;Rigle&#39; Iglesias</title>
-    <link>https://rigle.xyz/blog/tags/stream/</link>
+    <link>https://areidz.github.io/tags/stream/</link>
     <description>Recent content in Stream on Rodrigo &#39;Rigle&#39; Iglesias</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Fri, 05 Feb 2021 16:31:07 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/tags/stream/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 16:31:07 +0000</lastBuildDate><atom:link href="https://areidz.github.io/tags/stream/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mi setup de Podcasting y Streaming</title>
-      <link>https://rigle.xyz/blog/p/mi-setup-de-podcasting-y-streaming/</link>
+      <link>https://areidz.github.io/p/mi-setup-de-podcasting-y-streaming/</link>
       <pubDate>Fri, 05 Feb 2021 16:31:07 +0000</pubDate>
       
-      <guid>https://rigle.xyz/blog/p/mi-setup-de-podcasting-y-streaming/</guid>
+      <guid>https://areidz.github.io/p/mi-setup-de-podcasting-y-streaming/</guid>
       <description>Hace 5 meses que empecé a grabar el podcast de El Último Frame con frecuencia casi semanal, y tras este tiempo creo que he conseguido una setup de grabación bastante decente. Hay elementos que se podrían mejorar, como es el caso del micrófono, ya que aunque tiene una calidad aceptable, los hay bastante mejores y que captan menos ruido. No obstante, para mi situación actual es más que suficiente para proporcionar una buena calidad.</description>
     </item>
     

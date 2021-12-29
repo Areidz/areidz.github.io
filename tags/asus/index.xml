@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Asus on Rodrigo &#39;Rigle&#39; Iglesias</title>
-    <link>https://rigle.xyz/blog/tags/asus/</link>
+    <link>https://areidz.github.io/tags/asus/</link>
     <description>Recent content in Asus on Rodrigo &#39;Rigle&#39; Iglesias</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 15 Aug 2018 09:31:07 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/tags/asus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Aug 2018 09:31:07 +0000</lastBuildDate><atom:link href="https://areidz.github.io/tags/asus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Xubuntu 18.04 en el T100TA</title>
-      <link>https://rigle.xyz/blog/p/xubuntu-18.04-en-el-t100ta/</link>
+      <link>https://areidz.github.io/p/xubuntu-18.04-en-el-t100ta/</link>
       <pubDate>Wed, 15 Aug 2018 09:31:07 +0000</pubDate>
       
-      <guid>https://rigle.xyz/blog/p/xubuntu-18.04-en-el-t100ta/</guid>
+      <guid>https://areidz.github.io/p/xubuntu-18.04-en-el-t100ta/</guid>
       <description>Tras ver las últimas actualizaciones en los kernels, consultar el grupo de Google Plus y la nueva guía que han hecho describiendo el proceso de instalación de una manera sencilla, me he aventurado a volver a tener Linux en el pequeñín. Además, gran parte de los problemas que había (no funcionaban los botones físicos, ni la retroiluminación, ni el micrófono&amp;hellip;) han sido solucionados.
 Como ya expliqué en la entrada que redacté en inglés hace unos años, lo primero que hice fue una copia de seguridad del disco duro entero con Macrium Reflect, ya que solo tiene 64GB como máximo y, por si rompo algo que no debería, prefiero tener la copia entera.</description>
     </item>
     
     <item>
       <title>Linux on my Asus T100TA</title>
-      <link>https://rigle.xyz/blog/p/linux-on-my-asus-t100ta/</link>
+      <link>https://areidz.github.io/p/linux-on-my-asus-t100ta/</link>
       <pubDate>Mon, 07 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://rigle.xyz/blog/p/linux-on-my-asus-t100ta/</guid>
+      <guid>https://areidz.github.io/p/linux-on-my-asus-t100ta/</guid>
       <description>This entry is going to be my linux diary, so I can keep on records the stuff I&amp;rsquo;m doing on the tablet. Well, let&amp;rsquo;s start from the beginning:
 Windows hates me This change started with the new update of Microsoft OS, Windows 10. I wanted to test it on my tablet, an Asus Transformer T100 , to see how it was going. Even though I read a lot about its lack of privacy, I was also curious about all the changes like multi-desktop support (which both Linux and Macintosh have since ages) and Cortana , which offered a lot of features that seemed to be useful.</description>
     </item>

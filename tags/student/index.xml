@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>student on Rodrigo &#39;Rigle&#39; Iglesias</title>
-    <link>https://rigle.xyz/blog/tags/student/</link>
+    <link>https://areidz.github.io/tags/student/</link>
     <description>Recent content in student on Rodrigo &#39;Rigle&#39; Iglesias</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 08 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://rigle.xyz/blog/tags/student/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://areidz.github.io/tags/student/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub student pack</title>
-      <link>https://rigle.xyz/blog/p/github-student-pack/</link>
+      <link>https://areidz.github.io/p/github-student-pack/</link>
       <pubDate>Sun, 08 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://rigle.xyz/blog/p/github-student-pack/</guid>
+      <guid>https://areidz.github.io/p/github-student-pack/</guid>
       <description>Github is undoubtedly one of the largest webpages when it comes to sharing work with the community. Also, Github allows us to work as a team with the Git version control tools and a nice frontend.
 What is the best way to promote the use of this kind of tools among the student? I don&amp;rsquo;t know about your answer, but Github thinks that offering a &amp;ldquo;starter pack&amp;rdquo; is one of the best ways: The GitHub Student Developer Pack.</description>
     </item>
